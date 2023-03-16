@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "name": "web502",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build -- -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
